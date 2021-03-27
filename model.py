@@ -1,7 +1,7 @@
  from django.db import models
  class Profile(models.Model):
    user=models.CharField(max_length=30 , blank=False)
-   pass=models.PasswordField()
+  
   
    def __str__(self):
     return self.user
